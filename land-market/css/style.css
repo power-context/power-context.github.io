@@ -1,0 +1,344 @@
+body{
+	background: #245f97;
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 16px;
+	color: black;
+	font-weight: 400;
+	min-width: 320px;
+}
+a{
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #245f97;
+}
+a:hover{
+	color: #778d9b;
+	text-decoration: underline;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+section{
+	position: relative; 
+}
+h1,h2,h3{
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.btn{
+	text-transform: uppercase;
+	border: none;
+	color: white;
+	transition: background .5s;
+	font-family: 'Vollkorn', sans-serif;
+}
+#area1,
+#personal-account,
+#header,
+#buyer-list,
+#add-land{
+	background: url('../img/background-header1.jpg') center no-repeat fixed;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+/*=====header=====*/
+
+}
+.section-table{
+	/*display: table;
+	/*eight: 100%;*/
+	width: 100%;
+}
+/*.section-row{
+	display: table-row;
+}*/
+.section-cell{
+	/*display: table-cell;*/
+	text-align: center;
+	vertical-align: middle;
+}
+.section-center{
+	text-align: center;
+}
+.logo{
+	max-width: 200px;
+	text-align: center;
+	display: inline-block;
+}
+#header h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: white;
+}
+#header .btn{
+	font-size: 18px;
+	padding: 20px 40px;
+	font-weight: 700;
+	margin: 10px 20px;
+}
+.btn-primary{
+	background: #3575BB;
+}
+.form-group{
+	margin: 10px 10px; 
+}
+#header .registration-top .btn{
+	font-weight: 700;
+	font-size: 14px;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}
+.form-inline .radio, 
+.form-inline .checkbox {
+    margin-top: 15px;
+}
+#header .registration-top .btn {
+    padding: 7px 11px;
+    margin: 25px 10px;
+}
+/*============ Buyer ===========*/
+
+.container-all-site{
+	background-color: #E8F5FE;
+	text-align: center;
+	min-height: 100vh;
+}
+.header-page{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.titles{
+	text-align: right;
+}
+.line{
+	height: 2px;
+	width: 100%;
+	background-color: #245F97;
+	background-position: center center;
+}
+.sorting-string{
+	margin-bottom: 20px;
+}
+.area{
+	margin: 20px 0;
+	background-color: white;
+	min-height: 200px;
+	border: 1px solid #245F97;
+}
+.area img{
+	padding-top: 20px;
+}
+.area-description{
+	padding: 20px 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.area-description p{
+	text-align: left;
+}
+.area-description .title-bold{
+	font-weight: 700;
+}
+.area-description .btn{
+	background-color: #245F97;
+	padding: 10px 40px;
+	margin-top: 25px;
+}
+.area-one .title-bold{
+	font-weight: 700;
+}
+.area-one p{
+	text-align: left;
+	padding: 0 20px;
+}
+.area-one{
+	margin-top: 20px;
+}
+.area-description{
+	text-align: left;
+	padding: 0 20px;
+}
+.area-description h4{
+	font-weight: 700;
+}
+.sellers .btn{
+	padding: 5px 40px;
+}
+.area-description .line{
+	margin: 25px 0;
+}
+.sellers{
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sellers h4{
+	padding-left: 20px;
+	font-weight: 700;
+}
+.sellers p{
+	padding-left: 10px;
+}
+.sellers .btn{
+	background-color: #245F97;
+	padding: 5px 40px;
+}
+.modal-content .title-bold{
+	font-weight: 700;
+}
+
+.modal-body p{
+	padding-left: 20px;
+	text-align: left;
+}
+.container-all-site .logo{
+	max-width: 100px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.personal-account-header .top-menu{
+	padding-top: 25px;
+}
+#personal-account .personal-account-header .logo{
+	padding-top: 5px;
+}
+
+#personal-account .actively{
+	color: green;
+}
+#personal-account .no-actively{
+	color: red;
+}
+#personal-account .area-description .btn{
+	background-color: #245F97;
+	padding: 10px 20px;
+	margin-top: 25px;
+}
+#personal-account .area-description .btn:last-child{
+	margin-left: 10px;
+}
+#personal-account .add-land{
+	border: 1px dotted #245F97;
+}
+.add-land .btn{
+	margin-top: 65px;
+	padding: 20px 50px;
+}
+.add-land-header h3{
+	margin-top: 20px;
+}
+#add-land .add-file{
+	text-align: center;
+}
+#add-land .h4-titles{
+	margin: 25px 0;
+}
+#add-land h4{
+	text-align: center;
+}
+.sorting-string p{
+	text-align: right;
+}
+#exampleInputName2{
+	min-width: 215px;
+	margin-left: -10px;
+	margin-top: -15px;
+}
+#add-land .choise{
+	margin-top: 5px;
+}
+.buttons-add{
+	margin: 30px 0;
+	
+}
+.buttons-add .btn{
+	padding: 20px 50px;
+	margin: 0 10px;
+}
+
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+   color: #fff;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: #fff;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.line{
+	height: 2px;
+    }
+    .area-description{
+    	text-align: center;
+    }
+    .area-description p{
+    	text-align: center;
+    }
+    .radio p{
+	padding-left: 70px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.line{
+	height: 2px;
+    }
+    #exampleInputName2{
+	margin: 0;
+    }
+
+}
+
+@media only screen and (max-width : 510px) {
+	.section-center{
+	    max-width: 500px;
+	}
+	.logo{
+	    max-width: 150px;
+    }
+    #header h1{
+    	font-size: 30px;
+    }
+    .section-cell{
+    	vertical-align: top;
+    	padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width : 430px) {
+	.section-center{
+	    max-width: 400px;
+	}
+	.logo{
+	    max-width: 150px;
+    }
+    #header h1{
+    	font-size: 30px;
+    }
+    .line{
+	height: 2px;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+}

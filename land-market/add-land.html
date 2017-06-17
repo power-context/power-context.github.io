@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Land Market">
+	<meta name="keywords" content="продажа земли">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+	<link href="css/select2.css" rel="stylesheet">
+	<script src="js/select2.js"></script>
+  <link rel="stylesheet" href="ui/jquery-ui.css">
+	<!--<script>$(document).ready(function() { $("#select2").select2(); });</script>-->
+	<title>Land Market</title>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+  <section id="add-land">
+  <div class="container">
+    <div class="container-all-site col-md-10 col-md-offset-1">
+        <div class="row">
+            <div class="personal-account-header">
+              <div class="col-md-2">
+                <div class="logo">
+                  <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+              </div>
+              <div class="top-menu">
+                <div class="col-md-5">
+                  <div class="col-md-6">
+                    <a href="#">Мой профиль</a>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#">Мои участки</a>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="col-md-6">
+                    <p>Привет, username!</p>
+                  </div>
+                  <div class="col-md-6">
+                    <a href="#">Выйти</a>
+                  </div>
+                </div>
+              </div>
+            </div><!--/.personal-account-header-->
+        </div>
+        <div class="row">
+          <div class="line"></div>
+        </div>
+      <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="add-land-header">
+        <h3>Добавление / редактирование участка</h3>
+        <h4>Добавьте фото(минимум одно):</h4>
+        </div><!--.area-one-->
+      </div>
+      <div class="row">
+          <div class="form-group">
+            <label for="exampleInputFile">
+              <p class="help-block">Выберите фото участка (минимум одно).<br> Размер фото до 3Mb</p>
+            </label>
+            <div class="col-md-6 col-md-offset-3"><input type="file" id="exampleInputFile"></div>
+          </div>
+      </div>
+      <div class="row">
+      <div class="h4-titles">
+        <h4 class="titles">Адрес участка:</h4>
+      </div>
+      </div>
+      <div class="row">
+        <div class="row sorting-string">
+          <div class="col-md-6">
+            <div class="country-title">
+              <div class="col-md-4 titles">
+                <p>
+                  Город:
+                </p>
+              </div>
+              <div class="col-md-8">
+                <select class="form-control select2" >
+                  <option></option>
+                  <optgroup label="Южный округ">
+                    <option value="Арад">Арад</option>
+                    <option value="Ашдод">Ашдод</option>
+                    <option value="Ашкелон">Ашкелон</option>
+                    <option value="Беэр-Шева">Беэр-Шева</option>
+                    <option value="Димона">Димона</option>
+                    <option value="Кирьят-Гат">Кирьят-Гат</option>
+                    <option value="Кирьят-Малахи">Кирьят-Малахи</option>
+                    <option value="Нетивот">Нетивот</option>
+                    <option value="Офаким">Офаким</option>
+                    <option value="Рахат">Рахат</option>
+                    <option value="Сдерот">Сдерот</option>
+                    <option value="Эйлат">Эйлат</option>
+                  </optgroup>
+                  <optgroup label="Северный округ">
+                    <option value="Акко">Акко</option>
+                    <option value="Афула">Афула</option>
+                    <option value="Бейт-Шеан">Бейт-Шеан</option>
+                    <option value="Йокнеам">Йокнеам</option>
+                    <option value="Кармиэль">Кармиэль</option>
+                    <option value="Кирьят-Шмона">Кирьят-Шмона</option>
+                    <option value="Маалот-Таршиха">Маалот-Таршиха</option>
+                    <option value="Мигдаль-ха-Эмек">Мигдаль-ха-Эмек</option>
+                    <option value="Нагария">Нагария</option>
+                    <option value="Назарет">Назарет</option>
+                    <option value="Нацрат-Иллит">Нацрат-Иллит</option>
+                    <option value="Сахнин">Сахнин</option>
+                    <option value="Тамра">Тамра</option>
+                    <option value="Тверия">Тверия</option>
+                    <option value="Цфат">Цфат</option>
+                    <option value="Шефарам">Шефарам</option>
+                  </optgroup>
+                  <optgroup label="Хайфский округ">
+                    <option value="Бака-аль-Гарбия">Бака-аль-Гарбия</option>
+                    <option value="Кирьят-Ата">Кирьят-Ата</option>
+                    <option value="Кирьят-Бялик">Кирьят-Бялик</option>
+                    <option value="Кирьят-Моцкин">Кирьят-Моцкин</option>
+                    <option value="Кирьят-Ям">Кирьят-Ям</option>
+                    <option value="Нешер">Нешер</option>
+                    <option value="Ор-Акива">Ор-Акива</option>
+                    <option value="Тират-Кармель">Тират-Кармель</option>
+                    <option value="Умм-эль-Фахм">Умм-эль-Фахм</option>
+                    <option value="Хадера">Хадера</option>
+                    <option value="Хайфа">Хайфа</option>                  
+                  </optgroup>
+                  <optgroup label="Центральный округ">
+                    <option value="Гиват-Шмуэль">Гиват-Шмуэль</option>
+                    <option value="Йехуд-Моноссон">Йехуд-Моноссон</option>
+                    <option value="Калансуа">Калансуа</option>
+                    <option value="Кафр-Касем">Кафр-Касем</option>
+                    <option value="Кфар-Сава">Кфар-Сава</option>
+                    <option value="Лод">Лод</option>
+                    <option value="Модиин-Маккабим-Реут">Модиин-Маккабим-Реут</option>
+                    <option value="Нес-Циона">Нес-Циона</option>
+                    <option value="Нетания">Нетания</option>
+                    <option value="Петах-Тиква">Петах-Тиква</option>
+                    <option value="Раанана">Раанана</option>
+                    <option value="Рамла">Рамла</option>
+                    <option value="Реховот">Реховот</option>
+                    <option value="Ришон-ле-Цион">Ришон-ле-Цион</option>
+                    <option value="Рош-ха-Аин">Рош-ха-Аин</option>
+                    <option value="Тайбе">Тайбе</option>
+                    <option value="Тира">Тира</option>
+                    <option value="Ход-ха-Шарон">Ход-ха-Шарон</option>
+                    <option value="Эльад">Эльад</option>
+                    <option value="Явне">Явне</option>
+                  </optgroup>
+                  <optgroup label="Тель-авивский округ">
+                    <option value="Бат-Ям">Бат-Ям</option>
+                    <option value="Бней-Брак">Бней-Брак</option>
+                    <option value="Герцлия">Герцлия</option>
+                    <option value="Гиватаим">Гиватаим</option>
+                    <option value="Кирьят-Оно">Кирьят-Оно</option>
+                    <option value="Ор-Йехуда">Ор-Йехуда</option>
+                    <option value="Рамат-Ган">Рамат-Ган</option>
+                    <option value="Рамат-ха-Шарон">Рамат-ха-Шарон</option>
+                    <option value="Тель-Авив">Тель-Авив</option>
+                    <option value="Холон">Холон</option>
+                  </optgroup>
+                  <optgroup label="Иерусалимский округ">
+                    <option value="Бейт-Шемеш">Бейт-Шемеш</option>
+                    <option value="Иерусалим">Иерусалим</option>
+                  </optgroup>
+                  <optgroup label="Иудея и Самария">
+                    <option value="Ариэль">Ариэль</option>
+                    <option value="Бейтар-Илит">Бейтар-Илит</option>
+                    <option value="Маале-Адумим">Маале-Адумим</option>
+                    <option value="Модиин-Илит">Модиин-Илит</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="city-title">
+              <div class="col-md-4 titles">
+                <p>
+                  Назначение:
+                </p>
+              </div>
+              <div class="col-md-8">
+                <select class="form-control select2" >
+                  <option></option>
+                  <optgroup label="Назначение">
+                    <option value="С/х">Сельхохозяйственная</option>
+                    <option value="Застройка">Под застройку</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row sorting-string">
+          <div class="col-md-6">
+            <div class="country-title">
+              <div class="col-md-4">
+                <p>
+                  Улица:
+                </p>
+              </div>
+              <div class="col-md-8">
+                <div class="form-group" >
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите название улицы...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="city-title ">
+              <div class="col-md-4">
+                <p>
+                  № дома:
+                </p>
+              </div>
+              <div class="col-md-8">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите номер дома...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="h4-titles">
+        <h4 class="titles">Выберите адрес на карте</h4>
+        </div>
+      </div>
+      <div class="row">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d35421975ff601f848d3bcfa6b752df2015bfd8940bfa08312c6755e7d8686e&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+      <div class="row">
+        <div class="h4-titles">
+        <h4 class="titles">Введите описание участка</h4>
+        </div>
+      </div>
+      <div class="row">
+        <textarea class="form-control" rows="7"></textarea>
+      </div>
+      <div class="row">
+        <div class="h4-titles">
+        <h4 class="titles">Введите размер и цену участка</h4>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-md-6">
+        <select class="form-control select2" >
+          <option></option>
+          <optgroup label="Единица измерений">
+            <option value="С/х">Гектар</option>
+            <option value="Застройка">Дунам</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="col-md-6 choise">
+        <div class="form-group ">
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите стоимость участка,$">
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            Я собственник
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="h4-titles">
+        <h4 class="titles">Статус объявления</h4>
+        </div>
+      </div>
+      <div class="row">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> В продаже
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Неактивно
+        </label>
+      </div>
+      <div class="row">
+      <div class="buttons-add">
+        <a href="personal-account.html"><button class="btn btn-danger">Отмена</button></a>
+        <a href="personal-account.html"><button class="btn btn-success">Сохранить</button></a>
+      </div>
+      </div>
+    </div><!--/.container-all-site-->
+  </div>
+  </section>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  		<script src="js/bootstrap.js"></script>
+  		<script src="js/select2.full.min.js"></script>
+  		<script src="js/scripts.js"></script>
+      <script src="ui/jquery-ui.js"></script>
+  	</body>
+  	</html>
