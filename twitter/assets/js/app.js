@@ -22,6 +22,8 @@ function newTweet(e){
     //Read value
     const tweet = document.querySelector('#tweet').value;
 
+    if(tweet.length < 280 && tweet !== ''){
+        
     //Create <li>
     const li = document.createElement('li');
     li.textContent = tweet;
@@ -42,6 +44,9 @@ function newTweet(e){
 
     alert(tweet + '\nTweet added!');
 
+    } else {
+        alert('Please enter correct value');
+    }
     //Clear input
     this.reset();
 }
