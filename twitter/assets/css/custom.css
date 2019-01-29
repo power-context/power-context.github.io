@@ -1,0 +1,23 @@
+body{
+    background-color: #242424;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+label, li{
+    color: white;
+}
+
+#content {
+    margin-top: 40px;
+}
+.remove-tweet,
+.remove-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
