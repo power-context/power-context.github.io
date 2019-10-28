@@ -267,7 +267,7 @@ nav {
 
 .mobile {
   min-height: 864px;
-  background: url("/img/bg/mobile_app.png") center center/cover no-repeat;
+  background: url("../img/bg/mobile_app.png") center center/cover no-repeat;
   padding: 48px 0 80px 0;
 }
 
@@ -329,32 +329,32 @@ nav {
 }
 
 .mobile .row_items .item_1 {
-  background: url("/img/bg/mobile_screen_1.jpg") center center/cover no-repeat;
+  background: url("../img/bg/mobile_screen_1.jpg") center center/cover no-repeat;
 }
 
 .mobile .row_items .item_2 {
-  background: url("/img/bg/mobile_screen_2.jpg") center center/cover no-repeat;
+  background: url("../img/bg/mobile_screen_2.jpg") center center/cover no-repeat;
 }
 
 .mobile .row_items .item_3 {
-  background: url("/img/bg/mobile_screen_3.jpg") center center/cover no-repeat;
+  background: url("../img/bg/mobile_screen_3.jpg") center center/cover no-repeat;
 }
 
 .mobile .row_items .item_4 {
-  background: url("/img/bg/mobile_screen_4.jpg") center center/cover no-repeat;
+  background: url("../img/bg/mobile_screen_4.jpg") center center/cover no-repeat;
 }
 
 .mobile .row_items .item_5 {
-  background: url("/img/bg/mobile_screen_5.jpg") center center/cover no-repeat;
+  background: url("../img/bg/mobile_screen_5.jpg") center center/cover no-repeat;
 }
 
 .mobile .row_items .item_6 {
-  background: url("/img/bg/mobile_screen_6.jpg") center center/cover no-repeat;
+  background: url("../img/bg/mobile_screen_6.jpg") center center/cover no-repeat;
 }
 
 .choice {
   min-height: 896px;
-  background: url("/img/bg/mobile_app.png") center center/cover no-repeat;
+  background: url("../img/bg/mobile_app.png") center center/cover no-repeat;
   position: relative;
   padding: 57px 0 138px 0;
 }
@@ -446,10 +446,10 @@ nav {
   display: block;
   width: 21px;
   height: 20px;
-  background-image: url("/icons/check_blue.png");
+  background-image: url("../icons/check_blue.png");
   left: -32px;
   top: 3px;
-  background-image: url("/icons/check_blue.png");
+  background-image: url("../icons/check_blue.png");
 }
 
 .request_list_descr {
@@ -461,12 +461,12 @@ nav {
 }
 
 .request_list .red_list li:before {
-  background-image: url("/icons/check_red.png");
+  background-image: url("../icons/check_red.png");
 }
 
 .world {
   min-height: 717px;
-  background: url("/img/bg/map.jpg") center center/cover no-repeat;
+  background: url("../img/bg/map.jpg") center center/cover no-repeat;
   padding-top: 49px;
   position: relative;
 }
